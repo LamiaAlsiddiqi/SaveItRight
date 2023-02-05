@@ -13,6 +13,7 @@
 		1C3D97E7298F88D3008B1D45 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C3D97E6298F88D3008B1D45 /* Preview Assets.xcassets */; };
 		1C3D97E9298F88D3008B1D45 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3D97E8298F88D3008B1D45 /* Persistence.swift */; };
 		1C3D97EC298F88D3008B1D45 /* SaveItRight.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1C3D97EA298F88D3008B1D45 /* SaveItRight.xcdatamodeld */; };
+		1C3D97F3298F8ABD008B1D45 /* pageone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3D97F2298F8ABD008B1D45 /* pageone.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		1C3D97E6298F88D3008B1D45 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1C3D97E8298F88D3008B1D45 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		1C3D97EB298F88D3008B1D45 /* SaveItRight.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SaveItRight.xcdatamodel; sourceTree = "<group>"; };
+		1C3D97F2298F8ABD008B1D45 /* pageone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pageone.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			children = (
 				1C3D97DF298F88D1008B1D45 /* SaveItRightApp.swift */,
 				1C3D97E1298F88D1008B1D45 /* ContentView.swift */,
+				1C3D97F2298F8ABD008B1D45 /* pageone.swift */,
 				1C3D97E3298F88D3008B1D45 /* Assets.xcassets */,
 				1C3D97E8298F88D3008B1D45 /* Persistence.swift */,
 				1C3D97EA298F88D3008B1D45 /* SaveItRight.xcdatamodeld */,
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C3D97F3298F8ABD008B1D45 /* pageone.swift in Sources */,
 				1C3D97E9298F88D3008B1D45 /* Persistence.swift in Sources */,
 				1C3D97E2298F88D1008B1D45 /* ContentView.swift in Sources */,
 				1C3D97EC298F88D3008B1D45 /* SaveItRight.xcdatamodeld in Sources */,
