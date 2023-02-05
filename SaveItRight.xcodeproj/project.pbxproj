@@ -49,8 +49,8 @@
 		1C3D97D3298F88D1008B1D45 = {
 			isa = PBXGroup;
 			children = (
-				1C3D97F4298F8C11008B1D45 /* MainPage.swift */,
 				1C3D97FC298F8C75008B1D45 /* OnBoarding.swift */,
+				1C3D97F4298F8C11008B1D45 /* MainPage.swift */,
 				1C3D97F6298F8C3A008B1D45 /* Categories.swift */,
 				1C3D97F8298F8C54008B1D45 /* AddWarranty.swift */,
 				1C3D97FA298F8C60008B1D45 /* WarrantyView.swift */,
