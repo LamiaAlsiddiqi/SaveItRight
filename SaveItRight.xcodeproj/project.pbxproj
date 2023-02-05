@@ -13,7 +13,11 @@
 		1C3D97E7298F88D3008B1D45 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C3D97E6298F88D3008B1D45 /* Preview Assets.xcassets */; };
 		1C3D97E9298F88D3008B1D45 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3D97E8298F88D3008B1D45 /* Persistence.swift */; };
 		1C3D97EC298F88D3008B1D45 /* SaveItRight.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1C3D97EA298F88D3008B1D45 /* SaveItRight.xcdatamodeld */; };
-		1C3D97F3298F8ABD008B1D45 /* pageone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3D97F2298F8ABD008B1D45 /* pageone.swift */; };
+		1C3D97F5298F8C11008B1D45 /* MainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3D97F4298F8C11008B1D45 /* MainPage.swift */; };
+		1C3D97F7298F8C3A008B1D45 /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3D97F6298F8C3A008B1D45 /* Categories.swift */; };
+		1C3D97F9298F8C54008B1D45 /* AddWarranty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3D97F8298F8C54008B1D45 /* AddWarranty.swift */; };
+		1C3D97FB298F8C60008B1D45 /* WarrantyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3D97FA298F8C60008B1D45 /* WarrantyView.swift */; };
+		1C3D97FD298F8C75008B1D45 /* OnBoarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3D97FC298F8C75008B1D45 /* OnBoarding.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,7 +28,11 @@
 		1C3D97E6298F88D3008B1D45 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1C3D97E8298F88D3008B1D45 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		1C3D97EB298F88D3008B1D45 /* SaveItRight.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SaveItRight.xcdatamodel; sourceTree = "<group>"; };
-		1C3D97F2298F8ABD008B1D45 /* pageone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pageone.swift; sourceTree = "<group>"; };
+		1C3D97F4298F8C11008B1D45 /* MainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPage.swift; sourceTree = "<group>"; };
+		1C3D97F6298F8C3A008B1D45 /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
+		1C3D97F8298F8C54008B1D45 /* AddWarranty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWarranty.swift; sourceTree = "<group>"; };
+		1C3D97FA298F8C60008B1D45 /* WarrantyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarrantyView.swift; sourceTree = "<group>"; };
+		1C3D97FC298F8C75008B1D45 /* OnBoarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoarding.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +49,11 @@
 		1C3D97D3298F88D1008B1D45 = {
 			isa = PBXGroup;
 			children = (
+				1C3D97F4298F8C11008B1D45 /* MainPage.swift */,
+				1C3D97FC298F8C75008B1D45 /* OnBoarding.swift */,
+				1C3D97F6298F8C3A008B1D45 /* Categories.swift */,
+				1C3D97F8298F8C54008B1D45 /* AddWarranty.swift */,
+				1C3D97FA298F8C60008B1D45 /* WarrantyView.swift */,
 				1C3D97DE298F88D1008B1D45 /* SaveItRight */,
 				1C3D97DD298F88D1008B1D45 /* Products */,
 			);
@@ -59,7 +72,6 @@
 			children = (
 				1C3D97DF298F88D1008B1D45 /* SaveItRightApp.swift */,
 				1C3D97E1298F88D1008B1D45 /* ContentView.swift */,
-				1C3D97F2298F8ABD008B1D45 /* pageone.swift */,
 				1C3D97E3298F88D3008B1D45 /* Assets.xcassets */,
 				1C3D97E8298F88D3008B1D45 /* Persistence.swift */,
 				1C3D97EA298F88D3008B1D45 /* SaveItRight.xcdatamodeld */,
@@ -146,11 +158,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C3D97F3298F8ABD008B1D45 /* pageone.swift in Sources */,
+				1C3D97FB298F8C60008B1D45 /* WarrantyView.swift in Sources */,
+				1C3D97F5298F8C11008B1D45 /* MainPage.swift in Sources */,
 				1C3D97E9298F88D3008B1D45 /* Persistence.swift in Sources */,
 				1C3D97E2298F88D1008B1D45 /* ContentView.swift in Sources */,
+				1C3D97FD298F8C75008B1D45 /* OnBoarding.swift in Sources */,
 				1C3D97EC298F88D3008B1D45 /* SaveItRight.xcdatamodeld in Sources */,
 				1C3D97E0298F88D1008B1D45 /* SaveItRightApp.swift in Sources */,
+				1C3D97F7298F8C3A008B1D45 /* Categories.swift in Sources */,
+				1C3D97F9298F8C54008B1D45 /* AddWarranty.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
