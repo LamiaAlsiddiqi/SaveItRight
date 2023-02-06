@@ -28,8 +28,8 @@ struct OnBoarding: View {
         
        
         ZStack {
-            Color.black
-                .ignoresSafeArea()
+//            Color.black
+//                .ignoresSafeArea()
             VStack{
                 HStack{
                     Spacer()
@@ -104,5 +104,7 @@ struct OnBoarding: View {
 struct OnBoarding_Previews: PreviewProvider {
     static var previews: some View {
         OnBoarding()
+            .preferredColorScheme(.dark)
+
     }
 }
